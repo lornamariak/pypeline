@@ -1,4 +1,4 @@
-# PYPELINE [![Deploy to Azure Web App - pypeline](https://github.com/lornamariak/pypeline/actions/workflows/main_pypeline.yml/badge.svg)](https://github.com/lornamariak/pypeline/actions/workflows/main_pypeline.yml) [![Pylint CI](https://github.com/lornamariak/pypeline/actions/workflows/makefile.yml/badge.svg)](https://github.com/lornamariak/pypeline/actions/workflows/makefile.yml)
+# PYPELINE [![Pylint CI](https://github.com/lornamariak/pypeline/actions/workflows/makefile.yml/badge.svg)](https://github.com/lornamariak/pypeline/actions/workflows/makefile.yml) [![Deploy to Azure Web App - pypeline](https://github.com/lornamariak/pypeline/actions/workflows/main_pypeline.yml/badge.svg)](https://github.com/lornamariak/pypeline/actions/workflows/main_pypeline.yml)
 A data pipeline utility api.  
 
 The microservice allows users to create data pipelines for tasks such as data extracting missing data and removing duplicates and loading the clean data into their desired destination. 
