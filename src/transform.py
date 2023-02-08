@@ -1,5 +1,6 @@
 """Function to do the data transformations"""
-#import pandas as pd
+# import pandas as pd
+
 
 def create_data_report(data_object):
     """function to create report about the data provided"""
@@ -48,7 +49,7 @@ def summary_stats(data):
     """function to create summary stats object"""
     cols = len(data.columns)
     rows = data.shape[0]
-    cols_rows = {"columns": cols,"rows" : rows}
+    cols_rows = {"columns": cols, "rows": rows}
     data_desc = data.describe().to_dict()
     return cols_rows, data_desc
 
@@ -59,7 +60,7 @@ def remove_missing(data):
     return no_na_object
 
 
-def remove_dups(data, col, ref:str = "last"):
+def remove_dups(data, col, ref: str = "last"):
     """function to create summary stats object"""
     if ref == "last":
         no_dups_object = data.drop_duplicates(subset=[col], keep="last")
