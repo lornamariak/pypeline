@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'pypeline'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7815D3932CDE4B7EA725370A720FFC48 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5686D1BC96C24AB5A658E2096C64A13D }}
