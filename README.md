@@ -21,5 +21,5 @@ The pipeline utility handles the task of checking for duplicates and missing val
 ## Technologies used
 
 - FastApi
-- Azure app service. Api available at ![](https://pypeline.azurewebsites.net/docs)
-- Docker image available at ![](https://hub.docker.com/r/lornamariak/pypeline)
+- Azure app service. Api available at [](https://pypeline.azurewebsites.net/docs)
+- Docker image available at [](https://hub.docker.com/r/lornamariak/pypeline)
