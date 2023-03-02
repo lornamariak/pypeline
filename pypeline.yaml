@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pypeline-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pypeline
+  template:
+    metadata:
+      labels:
+        app: pypeline
+    spec:
+      containers:
+        - name: pypeline
+          image: lornamariak/pypeline:latest
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pypeline-service
+spec:
+  selector:
+    app: pypeline
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
