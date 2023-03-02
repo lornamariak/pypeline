@@ -1,6 +1,7 @@
 """
 Module for api requests
 """
+
 # import re
 from fastapi import FastAPI
 from src import read
